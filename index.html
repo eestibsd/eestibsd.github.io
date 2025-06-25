@@ -1,16 +1,100 @@
-<h2 align="center"> EestiBSD Home page. </h2>
-<div align="left">
-  <p>This is our logo</p>
-</div>
-<div align="center">
-    <img src="https://i.ibb.co/v4KFCH2T/5393125455483238292.jpg" height="300"  alt="EestiBSD logo" />
-</div>
-<h2 align="left"> About EestiBSD</h2>
-<p>* EestiBSD is a FreeBSD-based system.</p>
-<p>* It's was created by two developers(Maldidev and DiabloBlanko on GitHub)</p>
-<h2 align="center"> Current releases</h2>
-<p> Planned::EestiBSD 1:Keila</p>
-<!--
-<h2 align="center"> Fun fact:</h2>
-<p></p>
--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EestiBSD - FreeBSD-based Operating System</title>
+    <style>
+        :root {
+            --blue: #0072CE;  /* Estonian blue */
+            --black: #000000; /* Estonian black */
+            --white: #FFFFFF; /* Estonian white */
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--white);
+            color: var(--black);
+        }
+        header {
+            background-color: var(--blue);
+            color: var(--white);
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background-color: var(--black);
+            color: var(--white);
+            padding: 0.5rem;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav li {
+            margin: 0 1rem;
+        }
+        nav a {
+            color: var(--white);
+            text-decoration: none;
+        }
+        main {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        footer {
+            background-color: var(--black);
+            color: var(--white);
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        .logo {
+            height: 80px;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://i.ibb.co/v4KFCH2T/5393125455483238292.jpg" height="300"  alt="EestiBSD logo">
+        <h1>EestiBSD</h1>
+        <p>A FreeBSD-based operating system with Estonian spirit</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/download">Download</a></li>
+            <li><a href="/docs">Documentation</a></li>
+            <li><a href="/community">Community</a></li>
+            <li><a href="/support">Support</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section>
+            <h2>About EestiBSD</h2>
+            <p>EestiBSD is a FreeBSD-derived operating system optimized for Estonian language and local requirements, while maintaining full compatibility with FreeBSD.</p>
+        </section>
+        
+        <section>
+            <h2>Latest News</h2>
+            <article>
+                <h3>EestiBSD 1.0 Released</h3>
+                <p>2023-11-01</p>
+                <p>We're proud to announce the first stable release of EestiBSD...</p>
+            </article>
+        </section>
+    </main>
+    
+    <footer>
+        <p>© 2023 EestiBSD Project. Based on FreeBSD.</p>
+    </footer>
+</body>
+</html>
